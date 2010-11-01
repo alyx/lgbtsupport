@@ -1,0 +1,32 @@
+<!DOCTYPE HTML5>
+<html>
+<head>
+<title>LGBTsupport.org</title>
+<link rel="stylesheet" href="/css/style.css" />
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+		<div id="header"> 
+			<h1>LGBTsupport</h1> 
+			<div class="navbar"> 
+				<ul> 
+					<li><a href="/"><span style="color: red;">Home</span></a></li> 
+					<li><a href="/news"><span style="color: darkorange;">News</span></a></li> 
+					<li><a href="/local"><span style="color: yellow;">Local Resources</span></a></li> 
+					<li><a href="/community"><span style="color: lightgreen;">Community</span></a></li> 
+					<li><a href="/chat"><span style="color: skyblue;">Chat</span></a></li> 
+					<li><a href="/about"><span style="color: orchid;">About</span></a></li>
+					<div id="search">
+						<span><input name="search" value="Search" type="text"/><input name="go" value="Search" type="button"/></span>
+					</div> 
+				</ul>
+			</div> 
+		</div> 
+		<div id="content"> 
+<% content %>
+</div>
+<div id="footer">
+<span>Copyright &copy; 2010 LGBTsupport.org</span>
+</div>
+</body>
+</html>
